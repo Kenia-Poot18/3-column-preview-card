@@ -1,0 +1,74 @@
+/*colores de fondo de los contenedores*/
+.color-sedans
+{
+    background-color: hsl(31, 77%, 52%);
+}
+.color-suvs
+{
+    background-color: hsl(184, 100%, 22%);
+}
+.color-luxury
+{
+   background-color:hsl(179, 100%, 13%) ; 
+}
+
+/*colores de los botones*/
+
+.boton-sedans
+{
+    background-color: hsl(31, 77%, 52%) ;
+}
+
+.boton-suvs
+{
+    background-color:  hsl(184, 100%, 22%);
+}
+.boton-luxury
+{
+    background-color: hsl(179, 100%, 13%);
+}
+.boton
+{
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 3em;
+    padding: 3em 3em;
+    font-weight: 700;
+    
+}
+
+.boton:hover
+{
+    background-color: transparent;
+    border: solid 2px #fff;
+    color: #fff;
+}
+
+#sedans ,#suvs,#luxury
+{
+    padding: 3em 3em 3em 3em;
+}
+
+.container
+{
+    display: flex;
+    border-radius: 1em;
+}
+
+/*estilos de fuente de h1 y p*/
+#h1-sedans,#h1-suvs,#h1-luxury
+{
+    font-family: 'Big Shoulders Display', cursive;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.0em;
+    margin-top: 1.0em;
+}
+#p-sedans,#p-suvs,#p-luxury
+{
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 4.0em;
+}
